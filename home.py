@@ -93,5 +93,5 @@ if uploaded_doc:
         )
 
     st.session_state.history.append(
-        {"role": "assistant", "content": st.table(extracted) }
+        {"role": "assistant", "content": str(extracted)}
     )
